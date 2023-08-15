@@ -5,21 +5,26 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="font-awesome.min.css">
   <style type="text/css">
-    .background-black{background-color:black; width:100%;}
+    .background-black{background-color:black;}
     .player-button{
         border-style:none;
         cursor:pointer;
         color:white;
         background-color:transparent;
     }
-    .player-box{width: 800px; height: 600px;}
-    .player-persent-box{width: 100%; height: 100%}
-    .shadow{box-shadow: 0 0 10px rgba(0,0,0,9);}
+    .js-video-container{flex-grow: 1;}
+    .player-box{display: flex;
+           flex-direction: column;
+           flex-grow: 1;
+           width: 800px;
+           height: 600px;
+           box-shadow: 0 0 25px rgba(0,0,0,9);}
+    .player-persent-box{flex-grow: 1;}
   </style>
 </head>
 <body>
-  <div id="player" class="player-box shadow">
-    <div class="js-video-container player-persent-box"></div>
+  <div id="player" class="player-box">
+    <div class="js-video-container"></div>
     <div class="background-black">
       <button class="js-play-button player-button">
         <i class="fa fa-play" aria-hidden="true"></i>
