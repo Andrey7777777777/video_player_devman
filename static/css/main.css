@@ -1,0 +1,20 @@
+.background-black{background-color:black;}
+.player-button{
+    border-style:none;
+    cursor:pointer;
+    color:white;
+    background-color:transparent;
+    font-size: large;
+    width: 35px;
+    height: 25px;
+    }
+.player-control{display: flex; flex-wrap: wrap;}
+.player-control > div {flex-grow: 1;}
+.js-video-container{flex-grow: 1;}
+.player-box{display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+     width: 800px;
+     height: 600px;
+     box-shadow: 0 0 25px rgba(0,0,0,9);
+     }
