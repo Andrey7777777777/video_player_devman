@@ -14,7 +14,12 @@
         font-size: large;
         width: 35px;
         height: 25px;
+
     }
+    .player-control{display: flex; flex-wrap: wrap;}
+    .player-control > div {
+             flex-grow: 1;
+         }
     .js-video-container{flex-grow: 1;}
     .player-box{display: flex;
            flex-direction: column;
@@ -22,13 +27,13 @@
            width: 800px;
            height: 600px;
            box-shadow: 0 0 25px rgba(0,0,0,9);}
-    .player-persent-box{flex-grow: 1;}
   </style>
 </head>
 <body>
   <div id="player" class="player-box">
     <div class="js-video-container"></div>
     <div class="background-black">
+      <div class="player-control">
       <button class="js-play-button player-button">
         <i class="fa fa-play" aria-hidden="true"></i>
       </button>
@@ -41,6 +46,11 @@
       <button class="js-mute-button player-button" hidden>
         <i class="fa fa-volume-up" aria-hidden="true"></i>
       </button>
+      <div></div>
+      <button class="js-fullscreen-button player-button">
+        <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+      </button>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
