@@ -6,6 +6,7 @@
     font-size: large;
     width: 35px;
     height: 25px;
+    align-items: center;
     }
 .player-control{display: flex; flex-wrap: wrap; background-color:black; }
 .player-control > div {flex-grow: 1;}
