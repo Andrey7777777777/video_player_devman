@@ -1,4 +1,4 @@
-.player-button{
+.vp-button{
     border-style:none;
     cursor:pointer;
     color:white;
@@ -8,10 +8,10 @@
     height: 25px;
     align-items: center;
     }
-.player-control{display: flex; flex-wrap: wrap; background-color:black; }
-.player-control > div {flex-grow: 1;}
+.vp-control{display: flex; flex-wrap: wrap; background-color:black; }
+.vp-control > div {flex-grow: 1;}
 .js-video-container{flex-grow: 1;}
-.player-box{display: flex;
+.vp-player{display: flex;
      flex-direction: column;
      flex-grow: 1;
      width: 800px;
