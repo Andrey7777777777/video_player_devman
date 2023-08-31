@@ -3,11 +3,24 @@
     cursor:pointer;
     color:white;
     background-color:black;
-    font-size: large;
-    width: 35px;
-    height: 25px;
-    align-items: center;
     }
+.vp-button_volume{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-size: 125%;
+    height: 30px;
+    width: 30px;
+    }
+.vp-button_video{padding-right: 5px;
+    padding-left: 10px;
+    font-size: 125%;
+    width: 30px;
+    height: 45px;}
+.vp-button_full_screen{
+    padding-left: 0px;
+    font-size: 125%;
+    width: 30px;
+    height: 45px;}
 .vp-control{display: flex; flex-wrap: wrap; background-color:black; }
 .vp-control > div {flex-grow: 1;}
 .js-video-container{flex-grow: 1;}
