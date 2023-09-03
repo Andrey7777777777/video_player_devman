@@ -45,7 +45,7 @@
                        align-items: center;
                        background-color: black;
                        }
-.progress-slider{
+.progress-slider {
        height: 6px;
        width: 8px;
        background-color: #f8104d;
@@ -64,7 +64,16 @@
     border-right-width: 3px;
     border-color: white;
     margin: -10px;
+    opacity: 0
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+
+
     }
+.vp-viewing-panel:hover .dot {
+    opacity: 1;
+   }
 
 .vp-control{display: flex; flex-wrap: wrap; background-color:black;}
 .vp-control > div {flex-grow: 1}
