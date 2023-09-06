@@ -7,18 +7,18 @@
 .vp-button_volume{
     margin-left: 10px;
     margin-top: 8px;
-    font-size: 125%;
+    font-size: 20px;
     height: 30px;
     width: 30px;
     }
 .vp-button_video{padding-right: 5px;
     padding-left: 10px;
-    font-size: 125%;
+    font-size: 20px;
     width: 30px;
     height: 45px;}
 .vp-button_full_screen{
     padding-left: 0px;
-    font-size: 125%;
+    font-size: 20px;
     width: 30px;
     height: 45px;}
 
@@ -28,6 +28,7 @@
 .vp-viewing-panel .vp-viewing-time {
                         align-self: flex-start;
                         font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
                         margin-left: 3px;
                         margin-top: 12px;
                         color:white;
@@ -35,6 +36,7 @@
 .vp-viewing-panel .vp_duration {
                         align-self: flex-start;
                         font-family: 'Roboto', sans-serif;
+                        font-size: 16px;
                         margin-right: 8px;
                         margin-top: 13px;
                         color:white;}
